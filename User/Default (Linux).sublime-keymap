@@ -1,0 +1,9 @@
+[
+	{ "keys": ["ctrl+pagedown"], "command": "next_view" },
+	{ "keys": ["ctrl+pageup"], "command": "prev_view" },
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+    { "keys": ["ctrl+shift+c"], "command": "insert_snippet", "args": {"contents": "from pprint import pprint; import debug"}},
+    { "keys": ["ctrl+shift+v"], "command": "insert_snippet", "args": {"contents": "import traceback; traceback.print_stack()"}},
+    { "keys": ["ctrl+shift+x"], "command": "insert_snippet", "args": {"contents": "import ipdb; ipdb.set_trace()"}}
+]
